@@ -23,24 +23,24 @@ After first learning to program a month ago, I tried making an onboarding screen
 
 My goal was to create a simpler onboarding setup that I could revisit later without remembering all the details. Hope it helps, but also please send me tips to learn how to better organize it and code more clearly/concisely.
 
-Problems with my v1:
+**Problems with my v1**
 - Design of my OnboardingPage fits just a couple short lines of text. But you can change that.
-- I wish I could write the onboarding viewmodel as a class, rather than as an extension, but I couldn't sort in my beginner's head how to modify the sortingHat (ViewRouter) ObservableObject that way — or avoid placing all the onboarding functions into that sortingHat ObservableObject, which would load them even if no onboarding screens will be displayed.
+- I wish I could write the onboarding viewmodel as a class, rather than as an extension. That would make the Views more concise. But I couldn't sort in my beginner's head how to modify the sortingHat (ViewRouter) ObservableObject from another ViewModel class — or avoid placing all the onboarding functions into that sortingHat ObservableObject, which would load them even if no onboarding screens will be displayed.
 - You'll probably find more than that.
 
 ## CREDITS
 These tutorials helped me understand what to do:
 
 **Onboarding**
-AJ Picard: https://www.youtube.com/watch?v=brUrG0JsBgw&feature=youtu.be&app=desktop#menu
-Farukh Academy: https://www.youtube.com/watch?v=toyI7znf4Rg
-Farukh Academy (2): https://www.youtube.com/watch?v=61FxTbxrJmQ&t
-Blckbirds: https://blckbirds.com/post/how-to-create-a-onboarding-screen-in-swiftui-1/
-Liquid Coder: https://www.youtube.com/watch?v=MUsofD-uvtw 
-Liquid Coder  (2): https://liquidcoder.com/swiftui-onboarding-screen/
+* AJ Picard: https://www.youtube.com/watch?v=brUrG0JsBgw&feature=youtu.be&app=desktop#menu
+* Farukh Academy: https://www.youtube.com/watch?v=toyI7znf4Rg
+* Farukh Academy (2): https://www.youtube.com/watch?v=61FxTbxrJmQ&t
+* Blckbirds: https://blckbirds.com/post/how-to-create-a-onboarding-screen-in-swiftui-1/
+* Liquid Coder: https://www.youtube.com/watch?v=MUsofD-uvtw 
+* Liquid Coder  (2): https://liquidcoder.com/swiftui-onboarding-screen/
 
 **MacCatalyst Hover Recognition**
-Paul Colton: https://stackoverflow.com/questions/60001653/how-to-implement-onhover-event-with-catalyst
+* Paul Colton: https://stackoverflow.com/questions/60001653/how-to-implement-onhover-event-with-catalyst
 
 **MacCatalyst and iPadOS Keyboard Shortcuts**
-emcro: https://github.com/emcro/SwiftUI-Keyboard-Demo
+* emcro: https://github.com/emcro/SwiftUI-Keyboard-Demo
