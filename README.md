@@ -11,7 +11,9 @@ Edit one array to generate onboarding screens and navigation buttons for MacCata
 - In "SceneDelegate.swift" initialize the Harry Potter-themed SortingHat for the GreatHallView.
 - In "SortingHat.swift" change InitialView to your app's first view. No need to pass it that ObservableObject, unless you want to call a function to redo onboarding.
 
+
 == ABOUT ==
+
 After first learning to program a month ago, I tried making an onboarding screen for my first app in SwiftUI. Tutorials took different routes that didn't cover all the bases:
 - Didn't work in MacOS
 - Didn't have keyboard shortcuts
