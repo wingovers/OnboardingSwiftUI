@@ -126,6 +126,7 @@ struct OnboardingView: View {
             }
         }
         .padding(.bottom, 20)
+        .background(Color(UIColor.systemGray6).edgesIgnoringSafeArea(.all))
     }
 }
 
