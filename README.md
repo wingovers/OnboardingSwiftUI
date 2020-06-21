@@ -1,6 +1,8 @@
 # OnboardingSwiftUI
 Edit one array to generate onboarding screens and navigation buttons for MacCatalyst, iPadOS, and iOS
 
+![Screen recording](https://raw.githubusercontent.com/wingovers/OnboardingSwiftUI/master/Demo.mov)
+
 ## HOW TO USE
 1. Customize the onboarding caurosel by:
 - Editing the basic content and possible fields in "mOnboardingContent.swift"
