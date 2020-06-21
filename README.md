@@ -38,6 +38,7 @@ These tutorials helped me understand what to do:
 * Blckbirds: https://blckbirds.com/post/how-to-create-a-onboarding-screen-in-swiftui-1/
 * Liquid Coder: https://www.youtube.com/watch?v=MUsofD-uvtw 
 * Liquid Coder  (2): https://liquidcoder.com/swiftui-onboarding-screen/
+* AnthonyDesignCode: https://www.youtube.com/watch?v=Rv-NLv1lPBY
 
 **MacCatalyst Hover Recognition**
 * Paul Colton: https://stackoverflow.com/questions/60001653/how-to-implement-onhover-event-with-catalyst
