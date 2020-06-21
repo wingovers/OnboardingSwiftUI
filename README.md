@@ -32,13 +32,19 @@ My goal was to create a simpler onboarding setup that I could revisit later with
 These tutorials helped me understand what to do:
 
 **Onboarding**
-* AJ Picard: https://www.youtube.com/watch?v=brUrG0JsBgw&feature=youtu.be&app=desktop#menu
+* AJ Picard: https://www.youtube.com/watch?v=brUrG0JsBgw&feature=youtu.be&app=desktop#menu 
+  (Smooth tactile animation, long horizontal offset, transforming end button)
 * Farukh Academy: https://www.youtube.com/watch?v=toyI7znf4Rg
+  (UIKit-based, central arrays of content)
 * Farukh Academy (2): https://www.youtube.com/watch?v=61FxTbxrJmQ&t
+  (ViewRouter idea... which had to be Harry-Potterfied)
 * Blckbirds: https://blckbirds.com/post/how-to-create-a-onboarding-screen-in-swiftui-1/
+  (UIKit-based, beautiful art style I wanted to learn from)
 * Liquid Coder: https://www.youtube.com/watch?v=MUsofD-uvtw 
 * Liquid Coder  (2): https://liquidcoder.com/swiftui-onboarding-screen/
+  (Single array for page content, UIKit-based)
 * AnthonyDesignCode: https://www.youtube.com/watch?v=Rv-NLv1lPBY
+  (Unique tappable buttons, geometry reader offset)
 
 **MacCatalyst Hover Recognition**
 * Paul Colton: https://stackoverflow.com/questions/60001653/how-to-implement-onhover-event-with-catalyst
