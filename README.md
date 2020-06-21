@@ -15,9 +15,9 @@ Edit one array to generate onboarding screens and navigation buttons for MacCata
 ## ABOUT
 After first learning to program a month ago, I tried making an onboarding screen for my first app using SwiftUI for iPadOS and MacCatalyst. Several tutorials took different routes that had quirks:
 - Didn't work in MacOS
-- Didn't have keyboard shortcuts
+- Didn't have keyboard shortcuts or lazily large tappable areas
 - Didn't render well in different orientations or device sizes
-- Didn't respond fluidly with animation to touch
+- Didn't respond fluidly with animation to touch or mouse hovering
 - Used hard-coded logic that didn't scale easily when adding or subtracting pages
 - Relied on UIKit
 
