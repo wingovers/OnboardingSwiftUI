@@ -27,6 +27,7 @@ My goal was to create a simpler onboarding setup that I could revisit later with
 - Design of my OnboardingPage fits just a couple short lines of text. But you can change that.
 - I wish I could write the onboarding viewmodel as a class, rather than as an extension. That would make the Views more concise. But I couldn't sort in my beginner's head how to modify the sortingHat (ViewRouter) ObservableObject from another ViewModel class — or avoid placing all the onboarding functions into that sortingHat ObservableObject, which would load them even if no onboarding screens will be displayed.
 - You'll probably find more than that.
+- Fixed: A bug where tapping the redo onboarding button would restart at the final position if onboarding ended by anything but a key press
 
 ## CREDITS
 These tutorials helped me understand what to do:
