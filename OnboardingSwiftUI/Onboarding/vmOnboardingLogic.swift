@@ -68,9 +68,12 @@ extension OnboardingView {
             }
             if self.dragged.width < -40 {
                 guard self.isThereMoreToLearn else {
-                    withAnimation { self.sortingHat.didOnboard() }
+                    self.sortingHat.didOnboard()
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                        self.currentPage = 0
+                    }
                     return }
-                withAnimation { self.currentPage += 1 }
+                self.currentPage += 1
             }
             self.dragged = .zero
         }
@@ -86,7 +89,7 @@ extension OnboardingView {
         return TapGesture()
             .onEnded { _ in
                 guard self.currentPage > 0 else { return }
-                withAnimation { self.currentPage -= 1 }
+                    self.currentPage -= 1
         }
     }
 
@@ -101,10 +104,13 @@ extension OnboardingView {
     func tapForward() -> _EndedGesture<TapGesture> {
         return TapGesture()
             .onEnded { _ in
-                guard self.isThereMoreToLearn else {
-                    withAnimation { self.sortingHat.didOnboard() }
-                    return }
-                withAnimation { self.currentPage += 1 }
+                    guard self.isThereMoreToLearn else {
+                        self.sortingHat.didOnboard()
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                            self.currentPage = 0
+                        }
+                        return }
+                self.currentPage += 1
         }
     }
 
